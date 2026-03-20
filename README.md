@@ -157,7 +157,7 @@ The dataset follows a **3rd Normal Form (3NF)** relational schema. Key tables jo
 - **Temporal patterns**: Peak ordering on Sundays/Mondays; busiest hours 10 AM – 3 PM
 - **Reorder intervals**: Strong weekly (7-day) and monthly (30-day) cycles — key sequential signal for LSTM
 
-> 📄 Full EDA documentation available in `/reports/EDA_Report/`
+
 
 ---
 
