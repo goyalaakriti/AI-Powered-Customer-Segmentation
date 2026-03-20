@@ -97,36 +97,6 @@ Instacart Dataset (3.4M orders | 206K users | 49,688 products)
 
 ---
 
-## 📁 Repository Structure
-
-```
-├── data/
-│   ├── raw/                          # Instacart source tables (see Data Note below)
-│   └── processed/                    # Merged, cleaned & feature-engineered datasets
-│
-├── notebooks/
-│   ├── data_preprocessing.ipynb      # Relational joins, schema normalization, RFM features
-│   ├── eda.ipynb                     # Exploratory Data Analysis (full report)
-│   ├── model1_apriori.ipynb          # Apriori ARM: frequent itemsets & association rules
-│   ├── model2_lstm.ipynb             # Attention-LSTM: architecture, training & inference
-│   └── model_evaluation.ipynb        # Comparative evaluation, metrics & statistical tests
-│
-├── src/
-│   ├── data_pipeline.py              # Data ingestion, relational joins & cleaning
-│   ├── rfm_segmentation.py           # RFM scoring, min-max scaling, K-Means clustering
-│   ├── apriori_model.py              # Apriori implementation with support/confidence/lift thresholds
-│   ├── lstm_model.py                 # LSTM architecture (Embedding → LSTM → Softmax)
-│   └── model_evaluation.py           # Accuracy, Precision@K, Recall@K, F1, t-test utilities
-│
-├── tableau/
-│   └── dashboard_screenshots/        # Tableau NBO dashboard visuals
-│
-├── reports/
-│   └── EDA_Report/                   # Full Exploratory Data Analysis documentation
-│
-├── requirements.txt
-└── README.md
-```
 
 ---
 
